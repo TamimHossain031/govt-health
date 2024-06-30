@@ -8,6 +8,7 @@ Css Design==>
 2- header
 2.1 - navbar
 3- content
+4- footer
 
 
 
@@ -112,7 +113,7 @@ Css Design==>
 }
 .content__sidebar{
   width:28%;
-  border:1px solid green;
+  
   text-align:center;
 }
 
@@ -129,8 +130,21 @@ Css Design==>
   line-height:1.4em;
 }
 .content__sidebar img{
-  max-width:250px;
+  max-width:100%;
   margin:10px auto;
+}
+
+.contain__info h2{
+  background:#609513;
+  padding:2px 10px;
+  margin-top:20px;
+  color:#fff;
+
+}
+/* footer area */
+.footer img{
+  width:100%;
+  margin-top:50px;
 }
 
 
