@@ -107,12 +107,30 @@ Css Design==>
 }
 .content__main{
   width:70%;
-  border:1px solid green;
+  border-top:5px solid #609513;
 
 }
 .content__sidebar{
   width:28%;
   border:1px solid green;
+  text-align:center;
+}
+
+.content__sidebar h2{
+  background:#609513;
+  color:#ffff;
+  padding:2px;
+  font-size:0.9em;
+}
+
+.content__sidebar p{
+  font-size:0.8em;
+  text-align:center;
+  line-height:1.4em;
+}
+.content__sidebar img{
+  max-width:250px;
+  margin:10px auto;
 }
 
 
